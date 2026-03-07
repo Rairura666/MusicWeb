@@ -1,19 +1,18 @@
-import { Footer } from "./Footer"
-import { Header } from "./Header"
-import { Menu } from "./Menu"
+import { Router } from "./router/Router"
+import { HomePage } from "./pages/HomePage"
+import { DiscoverPage } from "./pages/DiscoverPage"
+import { MainLayout } from "./MainLayout"
 
 function App() {
 
+const routes = {
+  "/": HomePage,
+  "/discover": DiscoverPage,
+  "*": () => <div>404 Page not found</div>
+}
+
   return (
-    <div className="appWrapper">
-      <Menu></Menu>
-      <div className="container">
-        <div className="content">
-             <Header></Header>
-        </div>
-        <Footer></Footer>
-      </div>
-    </div>
+    <MainLayout page={ <Router routes = {routes}/>}/>
   )
 }
 
