@@ -1,5 +1,7 @@
+import { HomeHeader } from "../assets/HomeHeader"
+
 export const HomePage = () => {
     return (<>
-        <h1>Im a home page.</h1>
+            <HomeHeader></HomeHeader>
     </>)
 }

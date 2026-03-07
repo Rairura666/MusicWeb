@@ -1,7 +1,6 @@
 import { Outlet } from "react-router-dom"
-import { Footer } from "./Footer"
-import { Header } from "./Header"
-import { Menu } from "./Menu"
+import { Footer } from "./assets/Footer"
+import { Menu } from "./assets/Menu"
 
 export const MainLayout = () => {
   return (
@@ -9,7 +8,6 @@ export const MainLayout = () => {
       <Menu></Menu>
       <div className="container">
         <div className="content">
-             <Header></Header>
              <Outlet/>
         </div>
         <Footer></Footer>
