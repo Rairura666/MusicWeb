@@ -8,7 +8,7 @@ export function Footer() {
                     <path d="M0 120.261C34.5 120.261 806.5 95.7509 934.5 74.2614C1062.5 52.7719 1171 0 1171 0L1171.5 120.261H0Z" fill="#222222" />
                 </svg>
 
-                <svg className="footerBgPart3" viewBox="0 0 1172 88" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg className="footerBgPart3"  viewBox="0 0 1172 88" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 88C483.5 88 745.5 82.5 945 62.5001C1144.5 42.5002 1171.5 0 1171.5 0L1171 88H0Z" fill="#1D1D1D" />
                 </svg>
 

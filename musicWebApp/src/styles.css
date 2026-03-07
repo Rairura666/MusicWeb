@@ -51,7 +51,10 @@
     /* 11 → 12 */
 }
 
-html {}
+html {
+
+    scrollbar-gutter: stable;
+}
 
 body {
     font-family: var(--font-family);
@@ -59,17 +62,20 @@ body {
     font-size: var(--fs-16);
     color: #FFFFFF;
     background-color: var(--basicGray);
+
+
 }
 
 .container {
-    width: 100%;
+    flex: 1;
+    min-width: 0;
 }
 
 .content {
-    width: 100%;
     padding-inline: var(--container-padding-x);
     margin-inline: auto;
     box-sizing: border-box;
+
 }
 
 button {
@@ -147,6 +153,7 @@ a {
     justify-content: flex-start;
     gap: var(--fs-24);
     min-height: 100vh;
+    flex-shrink: 0;
 }
 
 .menuWrapper h1 {
@@ -197,6 +204,7 @@ h4 {
     bottom: 0;
     margin-top: 400px;
     width: 100%;
+    overflow-x: hidden;
 }
 
 .footerForeground {
@@ -233,9 +241,10 @@ h4 {
 }
 
 .footerDecoration {
-    height: 100%;
+    height: clamp(50px, 7vw, 200px);
     position: relative;
     bottom: 0;
+    right: 0;
     width: 100%;
     z-index: 100;
 }
@@ -243,18 +252,22 @@ h4 {
 
 .footerBgPart2 {
     position: absolute;
-    width: 100%;
+
     color: var(--footerGray1);
     z-index: 101;
     bottom: 0;
+    right: 0;
+    height: 100%;
 }
 
 .footerBgPart3 {
     position: absolute;
     bottom: 0;
     z-index: 102;
-    width: 100%;
+    right: 0;
     color: var(--footerGray2);
+
+    height: 80%;
 }
 
 .footerSocialsRow {
