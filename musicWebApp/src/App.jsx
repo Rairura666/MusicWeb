@@ -5,7 +5,6 @@ import { DiscoverPage } from "./pages/DiscoverPage";
 import { ArtistsPage } from "./pages/ArtistsPage";
 import { AlbumsPage } from "./pages/AlbumsPage";
 
-
 function App() {
 
   return (
@@ -19,7 +18,6 @@ function App() {
           <Route path="*" element={<div>Page not found</div>} />
         </Route>
       </Routes>
-
     </BrowserRouter>
   )
 }
