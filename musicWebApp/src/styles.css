@@ -396,7 +396,7 @@ h4 {
     flex-direction: row;
     width: 100%;
     gap: var(--fs-40);
-    align-items:  center;
+    align-items: center;
 }
 
 .joinUsInfo {
@@ -416,6 +416,19 @@ h4 {
     align-items: center;
     padding: var(--fs-20);
     gap: var(--fs-16);
+}
+
+.joinUsFormSignUpContent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--fs-16);
+}
+
+.joinUsFormSignUpContent button {
+    background-color: transparent;
+    white-space: nowrap;
 }
 
 .joinUsForm button {
@@ -444,13 +457,25 @@ h4 {
     display: flex;
     flex-direction: row;
     gap: var(--fs-16);
+}
 
+.joinUsNameNumberRow>* {
+    width: 100%;
 }
 
 .joinUsInputAndLabel {
     display: flex;
     flex-direction: column;
     gap: var(--fs-12);
+}
+
+.joinUsForm input {
+    background-color: transparent;
+    border: 2px var(--basicWhite) solid;
+    border-radius: 4px;
+    color: var(--basicWhite);
+    font-size: var(--fs-12);
+    padding: 5px;
 }
 
 .joinUsForm input {
@@ -476,6 +501,21 @@ h4 {
 
 .joinUsForm>* {
     width: 100%;
+}
+
+.joinUsFormSignUpContent>* {
+    width: 100%;
+}
+
+.joinUsLoginContent>* {
+    width: 100%;
+}
+
+.joinUsLoginContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--fs-16);
 }
 
 .JoinUsOr {
