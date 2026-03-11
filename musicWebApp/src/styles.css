@@ -564,3 +564,24 @@ h4 {
     aspect-ratio: 1;
     flex-shrink: 0;
 }
+
+
+.viewAllBtnWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    gap: var(--fs-12);
+}
+
+.viewAllBtn {
+    background-color: var(--searchGray);
+    border-radius: 50%;
+    height: var(--fs-40);
+    width: var(--fs-40);
+}
+
+.viewAllBtn span {
+    font-size: var(--fs-16);
+}
