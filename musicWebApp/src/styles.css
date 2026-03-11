@@ -216,7 +216,7 @@ h4 {
 .footerWrapper {
     position: relative;
     bottom: 0;
-    margin-top: 400px;
+
     width: 100%;
     overflow-x: hidden;
 }
@@ -397,6 +397,7 @@ h4 {
     width: 100%;
     gap: var(--fs-40);
     align-items: center;
+    margin-top: calc(var(--fs-40)*1.5);
 }
 
 .joinUsInfo {
@@ -584,4 +585,43 @@ h4 {
 
 .viewAllBtn span {
     font-size: var(--fs-16);
+}
+
+.homepageSectionHeadline {
+    margin-top: var(--fs-40);
+    margin-bottom: var(--fs-24);
+}
+
+.sectionCardsRow {
+    display: flex;
+    flex-direction: row;
+    gap: var(--fs-20);
+    justify-content: space-between;
+}
+
+.cardImg {
+    content: "";
+    background-color: #085f8f;
+    aspect-ratio: 1;
+    border-radius: 10px;
+}
+
+.cardBg {
+    background-color: var(--searchGray);
+    border-radius: 10px;
+    width: 16%;
+    padding: var(--fs-16);
+    display: flex;
+    flex-direction: column;
+    gap: var(--fs-12);
+}
+
+.cardBg h3 {
+    font-size: var(--fs-16);
+    margin: 0;
+}
+
+.cardBg span {
+    font-size: var(--fs-12);
+    opacity: 0.8;
 }

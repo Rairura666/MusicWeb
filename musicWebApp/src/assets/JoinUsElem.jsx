@@ -1,6 +1,5 @@
 import { useState } from "react";
 
-
 export const JoinUsElem = () => {
 
     const types = ["Sign Up", "Login"];
@@ -116,18 +115,10 @@ export const JoinUsElem = () => {
                         </button>
 
                     </div>
-
                 }
-
-
-
-
-
             </>
         );
     }
-
-
 
     return (
         <>
