@@ -5,7 +5,7 @@ import { PlaylistCard } from "../assets/PlaylistCard"
 import { ViewAllBtn } from "../assets/ViewAllBtn"
 import { HomeHeader } from "../assets/HomeHeader"
 import { JoinUsElem } from "../assets/JoinUsElem"
-import { TrendingSongsTable } from "../assets/TrendingSongsTable"
+import { SongsTable } from "../assets/SongsTable"
 
 export const HomePage = () => {
     return (<>
@@ -43,7 +43,7 @@ export const HomePage = () => {
 
             <div className="trendingSongsSection">
                 <h2 className="homepageSectionHeadline">Trending <span className="pinkText">Songs</span></h2>
-                <TrendingSongsTable />
+                <SongsTable />
             </div>
 
 
