@@ -1,5 +1,6 @@
 import { Card } from "../assets/Card"
 import { ArtistCard } from "../assets/ArtistCard"
+import { VideoCard } from "../assets/VideoCard"
 import { ViewAllBtn } from "../assets/ViewAllBtn"
 import { HomeHeader } from "../assets/HomeHeader"
 import { JoinUsElem } from "../assets/JoinUsElem"
@@ -49,7 +50,17 @@ export const HomePage = () => {
                 </div>
             </div>
 
-            <h2 className="homepageSectionHeadline">Music <span className="pinkText">Video</span></h2>
+
+            <div className="musicVideoSection">
+                <h2 className="homepageSectionHeadline">Music <span className="pinkText">Video</span></h2>
+                <div className="sectionCardsRow">
+                    <VideoCard />
+                    <VideoCard />
+                    <VideoCard />
+                    <ViewAllBtn />
+                </div>
+            </div>
+
 
             <div className="topAlbumsSection">
                 <h2 className="homepageSectionHeadline">Top <span className="pinkText">Albums</span></h2>

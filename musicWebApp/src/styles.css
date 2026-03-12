@@ -650,3 +650,35 @@ h4 {
     text-align: center;
 }
 
+.videoCardImg {
+    content: "";
+    background-color: #085f8f;
+    aspect-ratio: 2/1;
+    border-radius: 10px;
+}
+
+.videoCardBg {
+    background-color: var(--searchGray);
+    border-radius: 10px;
+    width: 28%;
+    padding: var(--fs-16);
+    display: flex;
+    flex-direction: column;
+    gap: var(--fs-12);
+}
+
+.videoCardBg h3 {
+    font-size: var(--fs-16);
+    margin: 0;
+}
+
+.videoCardBg span {
+    font-size: var(--fs-12);
+    opacity: 0.8;
+}
+
+.videoCardInfoRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
