@@ -1,6 +1,7 @@
 import { Card } from "../assets/Card"
 import { ArtistCard } from "../assets/ArtistCard"
 import { VideoCard } from "../assets/VideoCard"
+import { PlaylistCard } from "../assets/PlaylistCard"
 import { ViewAllBtn } from "../assets/ViewAllBtn"
 import { HomeHeader } from "../assets/HomeHeader"
 import { JoinUsElem } from "../assets/JoinUsElem"
@@ -8,18 +9,20 @@ import { TrendingSongsTable } from "../assets/TrendingSongsTable"
 
 export const HomePage = () => {
     return (<>
-        <div className="homePageWrapper">
+        <div className="PageWrapper">
             <HomeHeader></HomeHeader>
 
             <div className="weeklyTopSection">
                 <h2 className="homepageSectionHeadline">Weekly Top <span className="pinkText">Songs</span></h2>
 
                 <div className="sectionCardsRow">
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
+                    <div className="cardsRow">
+                        <Card />
+                        <Card />
+                        <Card />
+                        <Card />
+                        <Card />
+                    </div>
                     <ViewAllBtn />
                 </div>
             </div>
@@ -27,11 +30,13 @@ export const HomePage = () => {
             <div className="newReleaseSection">
                 <h2 className="homepageSectionHeadline">New Release <span className="pinkText">Songs</span></h2>
                 <div className="sectionCardsRow">
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
+                    <div className="cardsRow">
+                        <Card />
+                        <Card />
+                        <Card />
+                        <Card />
+                        <Card />
+                    </div>
                     <ViewAllBtn />
                 </div>
             </div>
@@ -45,12 +50,14 @@ export const HomePage = () => {
             <div className="popularArtistsSection">
                 <h2 className="homepageSectionHeadline">Popular <span className="pinkText">Artists</span></h2>
                 <div className="sectionCardsRow">
-                    <ArtistCard />
-                    <ArtistCard />
-                    <ArtistCard />
-                    <ArtistCard />
-                    <ArtistCard />
-                    <ArtistCard />
+                    <div className="cardsRow">
+                        <ArtistCard />
+                        <ArtistCard />
+                        <ArtistCard />
+                        <ArtistCard />
+                        <ArtistCard />
+                        <ArtistCard />
+                    </div>
                     <ViewAllBtn />
                 </div>
             </div>
@@ -59,9 +66,11 @@ export const HomePage = () => {
             <div className="musicVideoSection">
                 <h2 className="homepageSectionHeadline">Music <span className="pinkText">Video</span></h2>
                 <div className="sectionCardsRow">
-                    <VideoCard />
-                    <VideoCard />
-                    <VideoCard />
+                    <div className="cardsRow">
+                        <VideoCard />
+                        <VideoCard />
+                        <VideoCard />
+                    </div>
                     <ViewAllBtn />
                 </div>
             </div>
@@ -70,11 +79,13 @@ export const HomePage = () => {
             <div className="topAlbumsSection">
                 <h2 className="homepageSectionHeadline">Top <span className="pinkText">Albums</span></h2>
                 <div className="sectionCardsRow">
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
+                    <div className="cardsRow">
+                        <Card />
+                        <Card />
+                        <Card />
+                        <Card />
+                        <Card />
+                    </div>
                     <ViewAllBtn />
                 </div>
             </div>
@@ -83,11 +94,13 @@ export const HomePage = () => {
             <div className="moodPlaylistSection">
                 <h2 className="homepageSectionHeadline">Mood <span className="pinkText">Playlist</span></h2>
                 <div className="sectionCardsRow">
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
+                    <div className="cardsRow">
+                        <PlaylistCard />
+                        <PlaylistCard />
+                        <PlaylistCard />
+                        <PlaylistCard />
+                        <PlaylistCard />
+                    </div>
                     <ViewAllBtn />
                 </div>
             </div>

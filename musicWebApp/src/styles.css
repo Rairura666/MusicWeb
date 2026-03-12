@@ -386,7 +386,7 @@ h4 {
 }
 
 
-.homePageWrapper {
+.PageWrapper {
     display: flex;
     flex-direction: column;
 }
@@ -539,8 +539,6 @@ h4 {
     flex: 1;
 }
 
-
-
 .JoinUsWhiteBorderedBtn {
     border: 1px solid var(--basicWhite);
     border-radius: 4px;
@@ -564,8 +562,8 @@ h4 {
     flex-shrink: 0;
 }
 
-
 .viewAllBtnWrapper {
+    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -597,6 +595,21 @@ h4 {
     justify-content: space-between;
 }
 
+.cardsRow {
+    flex: 9;
+    display: flex;
+    flex-direction: row;
+    gap: var(--fs-20);
+    justify-content: space-between;
+}
+
+.discoverPageMusicVideoBlock {
+    flex: 9;
+    display: flex;
+    flex-direction: column;
+    gap: var(--fs-40);
+}
+
 .cardImg {
     content: "";
     background-color: #085f8f;
@@ -607,8 +620,8 @@ h4 {
 .cardBg {
     background-color: var(--searchGray);
     border-radius: 10px;
-    width: 16%;
-    padding: var(--fs-16);
+    width: 18%;
+    padding: var(--fs-12);
     display: flex;
     flex-direction: column;
     gap: var(--fs-12);
@@ -624,6 +637,20 @@ h4 {
     opacity: 0.8;
 }
 
+.playlistCardBg {
+    background-color: var(--searchGray);
+    border-radius: 10px;
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    gap: var(--fs-12);
+    padding-bottom: var(--fs-12);
+}
+
+.playlistCardBg h3 {
+    margin: 0;
+    padding: 0 var(--fs-12);
+}
 
 .artistCardImg {
     content: "";
@@ -635,8 +662,8 @@ h4 {
 .artistCardBg {
     background-color: transparent;
     border-radius: 10px;
-    width: 16%;
-    padding: var(--fs-16);
+    width: 18%;
+    padding: var(--fs-12);
     display: flex;
     flex-direction: column;
     gap: var(--fs-12);
@@ -659,7 +686,7 @@ h4 {
     background-color: var(--searchGray);
     border-radius: 10px;
     width: 28%;
-    padding: var(--fs-16);
+    padding: var(--fs-12);
     display: flex;
     flex-direction: column;
     gap: var(--fs-12);
@@ -681,6 +708,26 @@ h4 {
     justify-content: space-between;
 }
 
+.genreCardBg {
+    background-color: #085f8f;
+    border-radius: 10px;
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    aspect-ratio: 2/1.3;
+    position: relative;
+}
+
+.genreCardBg h3 {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    font-family: var(--third-family);
+    font-size: var(--fs-32);
+    font-weight: 400;
+    margin: 0;
+}
 
 .songPanelBg {
     background-color: var(--searchGray);
@@ -712,11 +759,11 @@ h4 {
     font-size: var(--fs-16);
 }
 
-
-.songPanelDate, .songPanelTime, .songPanelAlbum {
+.songPanelDate,
+.songPanelTime,
+.songPanelAlbum {
     text-align: center;
 }
-
 
 .songPanelBg .likeSongBtn {
     background-color: transparent;
@@ -727,8 +774,6 @@ h4 {
 .songPanelBg .likeSongBtn svg {
     width: 50%;
 }
-
-
 
 .trendingSongPanelWrapper {
     display: flex;
@@ -795,4 +840,8 @@ h4 {
     margin-top: var(--fs-16);
     display: flex;
     justify-content: center;
+}
+
+.discoverPageNavbarWrapper {
+    margin-top: var(--fs-40);
 }
