@@ -4,6 +4,7 @@ import { VideoCard } from "../assets/VideoCard"
 import { ViewAllBtn } from "../assets/ViewAllBtn"
 import { HomeHeader } from "../assets/HomeHeader"
 import { JoinUsElem } from "../assets/JoinUsElem"
+import { TrendingSongsTable } from "../assets/TrendingSongsTable"
 
 export const HomePage = () => {
     return (<>
@@ -35,8 +36,11 @@ export const HomePage = () => {
                 </div>
             </div>
 
+            <div className="trendingSongsSection">
+                <h2 className="homepageSectionHeadline">Trending <span className="pinkText">Songs</span></h2>
+                <TrendingSongsTable />
+            </div>
 
-            <h2 className="homepageSectionHeadline">Trending <span className="pinkText">Songs</span></h2>
 
             <div className="popularArtistsSection">
                 <h2 className="homepageSectionHeadline">Popular <span className="pinkText">Artists</span></h2>
