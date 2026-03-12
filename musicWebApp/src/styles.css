@@ -780,9 +780,19 @@ h4 {
     grid-column-start: 6;
 }
 
-
-
 .trendingSongPanelWrapper {
     grid-column: 2 / 4;
     grid-row-start: 2;
+}
+
+.viewAllBtn2 {
+    background-color: var(--searchGray);
+    padding: calc(var(--fs-12)/2) var(--fs-12);
+    border-radius: 4px;
+}
+
+.viewAllBtn2Wrapper {
+    margin-top: var(--fs-16);
+    display: flex;
+    justify-content: center;
 }

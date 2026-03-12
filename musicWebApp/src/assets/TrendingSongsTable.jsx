@@ -20,24 +20,28 @@ export const TrendingSongsTable = () => {
         </div>
 
     return (
-        <div className="trendingSongsWrapper">
-            <div className="trendingSongInfoHeader">
-                <span>Release Date</span>
-                <span>Album</span>
-                <span>Time</span>
-            </div>
-            <div className="trendingSongsnumeration">
-                <h3>№1</h3>
-                <h3>№2</h3>
-                <h3>№3</h3>
-            </div>
-            <div className="trendingSongPanelWrapper">
+        <>
 
-                {songPanel}
-                {songPanel}
-                {songPanel}
+            <div className="trendingSongsWrapper">
+                <div className="trendingSongInfoHeader">
+                    <span>Release Date</span>
+                    <span>Album</span>
+                    <span>Time</span>
+                </div>
+                <div className="trendingSongsnumeration">
+                    <h3>№1</h3>
+                    <h3>№2</h3>
+                    <h3>№3</h3>
+                </div>
+                <div className="trendingSongPanelWrapper">
+                    {songPanel}
+                    {songPanel}
+                    {songPanel}
+                </div>
             </div>
-
-        </div>
+            <div className="viewAllBtn2Wrapper">
+                <button className="viewAllBtn2">+ View All</button>
+            </div>
+        </>
     )
 }

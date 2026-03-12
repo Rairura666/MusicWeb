@@ -50,6 +50,7 @@ export const HomePage = () => {
                     <ArtistCard />
                     <ArtistCard />
                     <ArtistCard />
+                    <ArtistCard />
                     <ViewAllBtn />
                 </div>
             </div>
