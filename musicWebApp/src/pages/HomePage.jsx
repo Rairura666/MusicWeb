@@ -1,4 +1,6 @@
 import { Card } from "../assets/Card"
+import { ArtistCard } from "../assets/ArtistCard"
+import { ViewAllBtn } from "../assets/ViewAllBtn"
 import { HomeHeader } from "../assets/HomeHeader"
 import { JoinUsElem } from "../assets/JoinUsElem"
 
@@ -16,10 +18,7 @@ export const HomePage = () => {
                     <Card />
                     <Card />
                     <Card />
-                    <div className="viewAllBtnWrapper">
-                        <button className="viewAllBtn">+</button>
-                        <span>View All</span>
-                    </div>
+                    <ViewAllBtn />
                 </div>
             </div>
 
@@ -31,16 +30,25 @@ export const HomePage = () => {
                     <Card />
                     <Card />
                     <Card />
-                    <div className="viewAllBtnWrapper">
-                        <button className="viewAllBtn">+</button>
-                        <span>View All</span>
-                    </div>
+                    <ViewAllBtn />
                 </div>
             </div>
 
 
             <h2 className="homepageSectionHeadline">Trending <span className="pinkText">Songs</span></h2>
-            <h2 className="homepageSectionHeadline">Popular <span className="pinkText">Artists</span></h2>
+
+            <div className="popularArtistsSection">
+                <h2 className="homepageSectionHeadline">Popular <span className="pinkText">Artists</span></h2>
+                <div className="sectionCardsRow">
+                    <ArtistCard />
+                    <ArtistCard />
+                    <ArtistCard />
+                    <ArtistCard />
+                    <ArtistCard />
+                    <ViewAllBtn />
+                </div>
+            </div>
+
             <h2 className="homepageSectionHeadline">Music <span className="pinkText">Video</span></h2>
 
             <div className="topAlbumsSection">
@@ -51,10 +59,7 @@ export const HomePage = () => {
                     <Card />
                     <Card />
                     <Card />
-                    <div className="viewAllBtnWrapper">
-                        <button className="viewAllBtn">+</button>
-                        <span>View All</span>
-                    </div>
+                    <ViewAllBtn />
                 </div>
             </div>
 
@@ -67,10 +72,7 @@ export const HomePage = () => {
                     <Card />
                     <Card />
                     <Card />
-                    <div className="viewAllBtnWrapper">
-                        <button className="viewAllBtn">+</button>
-                        <span>View All</span>
-                    </div>
+                    <ViewAllBtn />
                 </div>
             </div>
 
