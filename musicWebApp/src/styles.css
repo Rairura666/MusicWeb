@@ -584,8 +584,8 @@ h4 {
     font-size: var(--fs-16);
 }
 
-.homepageSectionHeadline {
-    margin-top: var(--fs-40);
+.sectionHeadline {
+    margin-top: calc(var(--fs-40)*2);
     margin-bottom: var(--fs-24);
 }
 
@@ -796,7 +796,7 @@ h4 {
 
 .trendingSongsWrapper {
     display: grid;
-    grid-template-columns: 1fr 11fr;
+    grid-template-columns: 0.5fr 11.5fr;
     grid-template-rows: auto-fit;
 }
 
@@ -966,3 +966,28 @@ h4 {
 .albumsPageAlbumText span {
     display: inline-block;
 }
+
+
+
+.artistPageHeader {
+    margin-top: var(--fs-20);
+    border-radius: 10px;
+    background-color: #0b77b3;
+    padding: var(--fs-40) var(--fs-12) 0;
+    aspect-ratio: 3/1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: var(--fs-40);
+}
+
+.artistPageHeader h1 {
+    font-size: calc(var(--fs-40)*2.4);
+    margin: 0;
+}
+
+.artistPagePopularSongs h2 {
+    font-size: var(--fs-40);
+}
+
+

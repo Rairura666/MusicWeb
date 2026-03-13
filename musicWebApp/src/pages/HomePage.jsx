@@ -12,8 +12,8 @@ export const HomePage = () => {
         <div className="PageWrapper">
             <HomeHeader></HomeHeader>
 
-            <div className="weeklyTopSection">
-                <h2 className="homepageSectionHeadline">Weekly Top <span className="pinkText">Songs</span></h2>
+            <div className="weeklyTopSection pageSection">
+                <h2 className="sectionHeadline">Weekly Top <span className="pinkText">Songs</span></h2>
 
                 <div className="sectionCardsRow">
                     <div className="cardsRow">
@@ -27,8 +27,8 @@ export const HomePage = () => {
                 </div>
             </div>
 
-            <div className="newReleaseSection">
-                <h2 className="homepageSectionHeadline">New Release <span className="pinkText">Songs</span></h2>
+            <div className="newReleaseSection pageSection">
+                <h2 className="sectionHeadline">New Release <span className="pinkText">Songs</span></h2>
                 <div className="sectionCardsRow">
                     <div className="cardsRow">
                         <Card />
@@ -41,14 +41,14 @@ export const HomePage = () => {
                 </div>
             </div>
 
-            <div className="trendingSongsSection">
-                <h2 className="homepageSectionHeadline">Trending <span className="pinkText">Songs</span></h2>
+            <div className="trendingSongsSection pageSection">
+                <h2 className="sectionHeadline">Trending <span className="pinkText">Songs</span></h2>
                 <SongsTable />
             </div>
 
 
-            <div className="popularArtistsSection">
-                <h2 className="homepageSectionHeadline">Popular <span className="pinkText">Artists</span></h2>
+            <div className="popularArtistsSection pageSection">
+                <h2 className="sectionHeadline">Popular <span className="pinkText">Artists</span></h2>
                 <div className="sectionCardsRow">
                     <div className="cardsRow">
                         <ArtistCard />
@@ -63,8 +63,8 @@ export const HomePage = () => {
             </div>
 
 
-            <div className="musicVideoSection">
-                <h2 className="homepageSectionHeadline">Music <span className="pinkText">Video</span></h2>
+            <div className="musicVideoSection pageSection">
+                <h2 className="sectionHeadline">Music <span className="pinkText">Video</span></h2>
                 <div className="sectionCardsRow">
                     <div className="cardsRow">
                         <VideoCard />
@@ -76,8 +76,8 @@ export const HomePage = () => {
             </div>
 
 
-            <div className="topAlbumsSection">
-                <h2 className="homepageSectionHeadline">Top <span className="pinkText">Albums</span></h2>
+            <div className="topAlbumsSection pageSection">
+                <h2 className="sectionHeadline">Top <span className="pinkText">Albums</span></h2>
                 <div className="sectionCardsRow">
                     <div className="cardsRow">
                         <Card />
@@ -91,8 +91,8 @@ export const HomePage = () => {
             </div>
 
 
-            <div className="moodPlaylistSection">
-                <h2 className="homepageSectionHeadline">Mood <span className="pinkText">Playlist</span></h2>
+            <div className="moodPlaylistSection pageSection">
+                <h2 className="sectionHeadline">Mood <span className="pinkText">Playlist</span></h2>
                 <div className="sectionCardsRow">
                     <div className="cardsRow">
                         <PlaylistCard />

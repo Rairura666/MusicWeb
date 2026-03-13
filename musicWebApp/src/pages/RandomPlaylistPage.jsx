@@ -1,7 +1,7 @@
 import { SongsList } from "../assets/SongsTable"
 import { SimpleNavBar } from "../assets/SimpleNavBar"
 
-export const AlbumsPage = () => {
+export const RandomPlaylistPage = () => {
     return (
         <div className="albumsPageBg">
             <div className="albumsPageHeader">

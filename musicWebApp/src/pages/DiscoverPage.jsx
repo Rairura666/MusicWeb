@@ -15,8 +15,8 @@ export const DiscoverPage = () => {
             </div>
            
 
-            <div className="musicGenresSection">
-                <h2 className="homepageSectionHeadline">Music <span className="pinkText">Genres</span></h2>
+            <div className="musicGenresSection pageSection">
+                <h2 className="sectionHeadline">Music <span className="pinkText">Genres</span></h2>
                 <div className="sectionCardsRow">
                     <div className="cardsRow">
                         <GenreCard />
@@ -28,8 +28,8 @@ export const DiscoverPage = () => {
                 </div>
             </div>
 
-            <div className="moodPlaylistSection">
-                <h2 className="homepageSectionHeadline">Mood <span className="pinkText">Playlist</span></h2>
+            <div className="moodPlaylistSection pageSection">
+                <h2 className="sectionHeadline">Mood <span className="pinkText">Playlist</span></h2>
                 <div className="sectionCardsRow">
                     <div className="cardsRow">
                         <PlaylistCard />
@@ -42,8 +42,8 @@ export const DiscoverPage = () => {
                 </div>
             </div>
 
-            <div className="popularArtistsSection">
-                <h2 className="homepageSectionHeadline">Popular <span className="pinkText">Artists</span></h2>
+            <div className="popularArtistsSection pageSection">
+                <h2 className="sectionHeadline">Popular <span className="pinkText">Artists</span></h2>
                 <div className="sectionCardsRow">
                     <div className="cardsRow">
                         <ArtistCard />
@@ -57,8 +57,8 @@ export const DiscoverPage = () => {
                 </div>
             </div>
 
-            <div className="musicVideoSection">
-                <h2 className="homepageSectionHeadline">Music <span className="pinkText">Video</span></h2>
+            <div className="musicVideoSection pageSection">
+                <h2 className="sectionHeadline">Music <span className="pinkText">Video</span></h2>
                 <div className="sectionCardsRow">
                     <div className="discoverPageMusicVideoBlock">
                         <div className="cardsRow">
@@ -76,8 +76,8 @@ export const DiscoverPage = () => {
                 </div>
             </div>
 
-            <div className="newReleaseSection">
-                <h2 className="homepageSectionHeadline">New Release <span className="pinkText">Songs</span></h2>
+            <div className="newReleaseSection pageSection">
+                <h2 className="sectionHeadline">New Release <span className="pinkText">Songs</span></h2>
                 <div className="sectionCardsRow">
                     <div className="cardsRow">
                         <Card />
@@ -90,8 +90,8 @@ export const DiscoverPage = () => {
                 </div>
             </div>
 
-            <div className="topAlbumsSection">
-                <h2 className="homepageSectionHeadline">Top <span className="pinkText">Albums</span></h2>
+            <div className="topAlbumsSection pageSection">
+                <h2 className="sectionHeadline">Top <span className="pinkText">Albums</span></h2>
                 <div className="sectionCardsRow">
                     <div className="cardsRow">
                         <Card />

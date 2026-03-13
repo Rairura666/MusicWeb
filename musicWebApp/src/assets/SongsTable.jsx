@@ -27,9 +27,9 @@ export const SongsList = () => {
                 <span>Time</span>
             </div>
             <div className="trendingSongsnumeration">
-                <h3>№1</h3>
-                <h3>№2</h3>
-                <h3>№3</h3>
+                <h3>1</h3>
+                <h3>2</h3>
+                <h3>3</h3>
             </div>
             <div className="trendingSongPanelWrapper">
                 {songPanel}
